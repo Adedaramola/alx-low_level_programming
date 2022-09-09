@@ -13,6 +13,6 @@ int main(void)
 		if (lower == 113 || lower == 101)
 			continue;
 		putchar(lower++);
-	putchar(10)
+	putchar(10);
 	return (0);
 }
