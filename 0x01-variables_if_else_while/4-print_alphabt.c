@@ -11,11 +11,11 @@ int main(void)
 
 	while (lower < 123)
 	{
-		putchar(lower++);
 		if (lower == 101 || lower == 113)
 		{
 			continue;
 		}
+		putchar(lower++);
 	}
 	putchar(10);
 	return (0);
