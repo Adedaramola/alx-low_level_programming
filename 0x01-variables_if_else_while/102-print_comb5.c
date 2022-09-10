@@ -28,6 +28,7 @@ int main(void)
 						putchar(' ');
 					}
 				}
+				d = '0';
 			}
 		}
 	}
