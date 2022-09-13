@@ -1,11 +1,11 @@
 #include "main.h"
 
-/** 
+/**
  * _isalpha - checks for alpha
- *
+ *@c: character to be checked
  * Return: 0 or 1
  */
-int _ialpha(int c)
+int _isalpha(int c)
 {
 	if (c >= 65 && c <= 90)
 	{

@@ -2,7 +2,7 @@
 
 /**
  * print_sign - prints the sign of a number
- *
+ * @n: character to be verified
  * Return: -1, 0 or 1
  */
 int print_sign(int n)
@@ -21,7 +21,7 @@ int print_sign(int n)
 
 	if (n < 0)
 	{
-		_putchar('-1');
+		_putchar('-');
 		return (-1);
 	}
 }
