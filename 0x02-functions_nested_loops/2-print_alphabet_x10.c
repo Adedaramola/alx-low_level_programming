@@ -7,16 +7,15 @@
  */
 void print_alphabet_x10(void)
 {
-	int count = 1;
+	int count = 0;
 	int start = 97;
 
-	while (count <= 10)
+	while (count++ <= 9)
 	{
 		while (start <= 122)
 		{
 			_putchar(start++);
 		}
-		count++;
 	}
 	_putchar(10);
 }
